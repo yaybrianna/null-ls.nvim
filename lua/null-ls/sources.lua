@@ -243,11 +243,11 @@ M.validate_and_transform = function(source)
   end
 
   for _, method in ipairs(source_methods) do
-    print(source_methods)
     validate({
       method = {
         method,
         function(m)
+          print(m)
           return require("null-ls.methods").internal[m] ~= nil
         end,
         "supported null-ls method",
