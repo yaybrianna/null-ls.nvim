@@ -247,7 +247,6 @@ M.validate_and_transform = function(source)
       method = {
         method,
         function(m)
-          print(m)
           return require("null-ls.methods").internal[m] ~= nil
         end,
         "supported null-ls method",
