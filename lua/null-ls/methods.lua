@@ -16,6 +16,7 @@ local lsp_methods = {
     HOVER = "textDocument/hover",
     COMPLETION = "textDocument/completion",
 }
+
 utils.tbl_add_reverse_lookup(lsp_methods)
 
 local internal_methods = {
