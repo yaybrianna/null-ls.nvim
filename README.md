@@ -5,12 +5,6 @@
 }
 -->
 
-# ARCHIVED
-
-null-ls is now archived and will no longer receive updates. Please see
-[this issue](https://github.com/jose-elias-alvarez/null-ls.nvim/issues/1621) for
-details.
-
 # null-ls.nvim
 
 Use Neovim as a language server to inject LSP diagnostics, code actions, and
@@ -235,12 +229,12 @@ instructions.
 ### How do I format files on save?
 
 See
-[this wiki page](https://github.com/jose-elias-alvarez/null-ls.nvim/wiki/Formatting-on-save).
+[this wiki page](https://github.com/yaybrianna/null-ls.nvim/wiki/Formatting-on-save).
 
 ### How do I stop Neovim from asking me which server I want to use for formatting?
 
 See
-[this wiki page](https://github.com/jose-elias-alvarez/null-ls.nvim/wiki/Avoiding-LSP-formatting-conflicts).
+[this wiki page](https://github.com/yaybrianna/null-ls.nvim/wiki/Avoiding-LSP-formatting-conflicts).
 
 ### How do I view project-level diagnostics?
 
@@ -270,7 +264,7 @@ possible, so it should work seamlessly with most LSP-related plugins. If you run
 into problems, please try to determine which plugin is causing them and open an
 issue.
 
-[This wiki page](https://github.com/jose-elias-alvarez/null-ls.nvim/wiki/Compatibility-with-other-plugins)
+[This wiki page](https://github.com/yaybrianna/null-ls.nvim/wiki/Compatibility-with-other-plugins)
 mentions plugins that require specific configuration options / tweaks to work
 with null-ls.
 
