@@ -296,6 +296,8 @@ end
 M.tbl_add_reverse_lookup = function(input_table)
   for key, value in pairs(input_table) do
     input_table[value] = key
+    print(key)
+    print(value)
   end
 end
 
