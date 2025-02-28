@@ -1,4 +1,4 @@
-local utils require("null-ls.utils")
+local utils = require("null-ls.utils")
 
 local lsp_methods = {
     INITIALIZE = "initialize",
