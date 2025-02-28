@@ -243,6 +243,7 @@ M.validate_and_transform = function(source)
     end
 
     for _, method in ipairs(source_methods) do
+      print(method)
         validate({
             method = {
                 method,
