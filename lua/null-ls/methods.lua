@@ -1,3 +1,5 @@
+local utils require("null-ls.utils")
+
 local lsp_methods = {
     INITIALIZE = "initialize",
     SHUTDOWN = "shutdown",
@@ -14,7 +16,7 @@ local lsp_methods = {
     HOVER = "textDocument/hover",
     COMPLETION = "textDocument/completion",
 }
-vim.tbl_add_reverse_lookup(lsp_methods)
+utils.tbl_add_reverse_lookup(lsp_methods)
 
 local internal_methods = {
     CODE_ACTION = "NULL_LS_CODE_ACTION",
@@ -26,7 +28,7 @@ local internal_methods = {
     HOVER = "NULL_LS_HOVER",
     COMPLETION = "NULL_LS_COMPLETION",
 }
-vim.tbl_add_reverse_lookup(internal_methods)
+utils.tbl_add_reverse_lookup(internal_methods)
 
 local lsp_to_internal_map = {
     [lsp_methods.CODE_ACTION] = internal_methods.CODE_ACTION,

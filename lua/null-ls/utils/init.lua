@@ -292,4 +292,12 @@ M.make_params = function(...)
     return require("null-ls.utils.make_params")(...)
 end
 
+
+M.tbl_add_reverse_lookup = function(input_table)
+  for key, value in pairs(input_table) do
+    input_table[value] = key
+  end
+end
+
+
 return M
