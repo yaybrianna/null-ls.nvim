@@ -28,6 +28,7 @@ local internal_methods = {
     RANGE_FORMATTING = "NULL_LS_RANGE_FORMATTING",
     HOVER = "NULL_LS_HOVER",
     COMPLETION = "NULL_LS_COMPLETION",
+    NULL_LS_FORMATTING = "NULL_LS_FORMATTING"
 }
 utils.tbl_add_reverse_lookup(internal_methods)
 
